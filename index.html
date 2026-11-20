@@ -3,160 +3,350 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Student developer portfolio">
-    <title>Student Name | Developer Portfolio</title>
+
+    <meta name="description" content="Austin's Computer Science portfolio, featuring software development projects, programming experience, and professional growth.">
+
+    <title>Austin | Developer Portfolio</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+    <!-- Navigation -->
     <header class="site-header">
         <div class="container nav-wrapper">
-            <a class="site-title" href="#home">Student Name</a>
+
+            <a class="site-title" href="#home">
+                Developer Portfolio
+            </a>
+
             <nav aria-label="Main navigation">
                 <ul class="nav-list">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+
         </div>
     </header>
 
     <main>
+
+        <!-- Home Section -->
         <section id="home" class="hero">
+
             <div class="container hero-content">
+
                 <div>
-                    <p class="eyebrow">Student Developer Portfolio</p>
-                    <h1>Hello, I’m <span>Student Name</span>.</h1>
-                    <p class="hero-text">
-                        Replace this paragraph with a short professional introduction. Explain what kind of developer you are becoming, what you enjoy building, and what you hope to do next.
+                    <p class="eyebrow">
+                        Computer Science Student &amp; Aspiring Developer
                     </p>
+
+                    <h1>
+                        Hello, I'm <span>Austin</span>.
+                    </h1>
+
+                    <p class="hero-text">
+                        I'm a Computer Science student focused on software
+                        development, problem-solving, and building practical
+                        applications. I enjoy taking an idea from the planning
+                        stage through development, testing, and refinement.
+                        My goal is to continue growing as a developer while
+                        creating software that is functional, engaging, and
+                        thoughtfully designed.
+                    </p>
+
                     <div class="button-row">
-                        <a class="button primary" href="#projects">View My Projects</a>
-                        <a class="button secondary" href="assets/student-resume.pdf" target="_blank" rel="noopener">View Résumé</a>
+                        <a class="button primary" href="#projects">
+                            View My Projects
+                        </a>
+
+                        <a class="button secondary" href="#about">
+                            About Me
+                        </a>
                     </div>
                 </div>
 
-                <img class="profile-image" src="images/profile-placeholder.svg" alt="Placeholder profile illustration">
+                <img class="profile-image"
+                     src="images/headshot.jpeg"
+                     alt="Professional headshot of Austin">
+
             </div>
         </section>
 
+
+        <!-- About Section -->
         <section id="about" class="section">
+
             <div class="container narrow">
+
                 <p class="section-label">About Me</p>
-                <h2>Who I Am as a Developer</h2>
+
+                <h2>My Journey as a Developer</h2>
+
                 <p>
-                    Replace this paragraph with your developer story. You might discuss what led you to programming, the types of problems you enjoy solving, and how your skills have grown during the program.
+                    My interest in Computer Science comes from enjoying
+                    the process of understanding how things work and finding
+                    solutions to challenging problems. Through my coursework,
+                    I've developed experience with C++ programming,
+                    object-oriented design, debugging, and building
+                    applications from the ground up.
                 </p>
 
+                <p>
+                    One of the most valuable parts of my learning experience
+                    has been developing <strong>Five Faces of Evil</strong>,
+                    a text-based murder mystery game. Starting with an idea
+                    and turning it into a functional application has allowed
+                    me to practice planning, problem-solving, and organizing
+                    code into manageable components.
+                </p>
+
+                <p>
+                    I've also learned that software development involves
+                    much more than writing code. Testing, troubleshooting,
+                    documenting progress, and being willing to revisit
+                    earlier decisions are all important parts of creating
+                    something reliable.
+                </p>
+
+                <p>
+                    I'm continuing to strengthen my technical skills and
+                    expand my understanding of software development.
+                    I enjoy learning through hands-on projects and
+                    challenging myself to build something better with
+                    each new experience.
+                </p>
+
+
+                <!-- Skills -->
                 <div class="skills-grid">
+
                     <article class="info-card">
                         <h3>Languages</h3>
                         <p>C++, HTML, CSS</p>
                     </article>
 
                     <article class="info-card">
-                        <h3>Tools</h3>
+                        <h3>Development Tools</h3>
                         <p>Visual Studio, Git, GitHub</p>
                     </article>
 
                     <article class="info-card">
-                        <h3>Current Focus</h3>
-                        <p>Object-oriented programming, debugging, and clean code</p>
+                        <h3>Technical Focus</h3>
+                        <p>
+                            Object-oriented programming, debugging,
+                            testing, and clean code
+                        </p>
                     </article>
+
                 </div>
+
             </div>
         </section>
 
+
+        <!-- Projects Section -->
         <section id="projects" class="section alternate-background">
+
             <div class="container">
+
                 <p class="section-label">Featured Work</p>
-                <h2>Projects</h2>
+
+                <h2>My Projects</h2>
+
                 <p class="section-intro">
-                    Replace the sample information below with your own work. Add screenshots, explain what each project does, and describe your development process.
+                    These projects represent my development experience
+                    and the skills I've been building throughout my
+                    Computer Science coursework.
                 </p>
 
+
+                <!-- Five Faces of Evil -->
                 <div class="project-grid">
-                    <article class="project-card">
-                        <img src="images/project-placeholder.svg" alt="Placeholder screenshot for Project One">
-                        <div class="project-content">
-                            <p class="project-type">C++ Console Application</p>
-                            <h3>Project One Title</h3>
-                            <p>
-                                Write a brief overview of the project. Explain the purpose of the program and what the user can do with it.
-                            </p>
-
-                            <h4>Key Features</h4>
-                            <ul>
-                                <li>Describe one major feature.</li>
-                                <li>Describe another major feature.</li>
-                                <li>Describe your input validation or menu system.</li>
-                            </ul>
-
-                            <h4>What I Learned</h4>
-                            <p>
-                                Explain one challenge you faced, how you solved it, and what you learned from the process.
-                            </p>
-
-                            <div class="project-links">
-                                <a class="text-link" href="https://github.com/USERNAME/REPOSITORY" target="_blank" rel="noopener">View Repository</a>
-                                <a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>
-                            </div>
-                        </div>
-                    </article>
 
                     <article class="project-card">
-                        <img src="images/project-placeholder.svg" alt="Placeholder screenshot for Project Two">
+
+                        <img src="images/game-running.png"
+                             alt="Five Faces of Evil running in the console">
+
                         <div class="project-content">
-                            <p class="project-type">Additional Project</p>
-                            <h3>Project Two Title</h3>
-                            <p>
-                                Duplicate this card when you are ready to add more work. Replace all placeholder text, links, and images before submitting.
+
+                            <p class="project-type">
+                                C++ Console Application
                             </p>
+
+                            <h3>Five Faces of Evil</h3>
+
+                            <p>
+                                Five Faces of Evil is a text-based murder
+                                mystery game where players investigate
+                                five suspects, examine evidence, and
+                                uncover the truth behind an agent's murder.
+                            </p>
+
 
                             <h4>Key Features</h4>
+
                             <ul>
-                                <li>Describe one major feature.</li>
-                                <li>Describe another major feature.</li>
-                                <li>Describe a technical improvement.</li>
+                                <li>
+                                    Five unique suspects with individual
+                                    backgrounds and alibis.
+                                </li>
+
+                                <li>
+                                    Interactive suspect interrogation
+                                    and dialogue options.
+                                </li>
+
+                                <li>
+                                    Evidence examination with descriptions
+                                    that help players investigate the case.
+                                </li>
+
+                                <li>
+                                    Menu-driven navigation and input
+                                    validation.
+                                </li>
+
+                                <li>
+                                    Organized classes that separate
+                                    game logic, suspects, and evidence.
+                                </li>
                             </ul>
 
+
                             <h4>What I Learned</h4>
+
                             <p>
-                                Explain how this project demonstrates your growth as a developer.
+                                Developing this project helped me better
+                                understand how to organize a larger
+                                application using object-oriented
+                                programming. I gained practical experience
+                                creating classes, managing program flow,
+                                debugging issues, and testing individual
+                                features.
                             </p>
 
+                            <p>
+                                One of my biggest takeaways was learning
+                                how important it is to build and test
+                                each component carefully. Working through
+                                challenges and improving the code along
+                                the way helped me become more confident
+                                in my problem-solving abilities.
+                            </p>
+
+
                             <div class="project-links">
-                                <a class="text-link" href="https://github.com/USERNAME/REPOSITORY" target="_blank" rel="noopener">View Repository</a>
-                                <a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>
+
+                                <a class="text-link"
+                                   href="https://github.com/austzeek/COS119-O-CaseFiles"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    View Repository
+                                </a>
+
                             </div>
+
                         </div>
+
                     </article>
+
                 </div>
+
             </div>
         </section>
 
-        <section id="contact" class="section">
-            <div class="container narrow contact-section">
-                <p class="section-label">Contact</p>
-                <h2>Let’s Connect</h2>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+
+            <div class="container narrow">
+
+                <p class="section-label">Professional Experience</p>
+
+                <h2>My Resume</h2>
+
                 <p>
-                    Replace the links below with your professional profiles. Do not publish your home address, student ID, personal phone number, or other private information.
+                    My resume highlights my professional experience,
+                    technical skills, education, and continued growth
+                    as a Computer Science student.
+                </p>
+
+                <div class="button-row">
+
+                    <a class="button primary"
+                       href="assets/Austin_Rogers_Resume.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View My Resume
+                    </a>
+
+                    <a class="button secondary"
+                       href="assets/Austin_Rogers_Resume.pdf"
+                       download>
+                        Download Resume
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+
+            <div class="container narrow contact-section">
+
+                <p class="section-label">Contact</p>
+
+                <h2>Let's Connect</h2>
+
+                <p>
+                    I'm always interested in connecting with others
+                    in the technology and software development
+                    community. Feel free to explore my projects
+                    and follow my continued growth as a developer.
                 </p>
 
                 <div class="contact-links">
-                    <a class="button primary" href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
-                    <a class="button secondary" href="https://www.linkedin.com/in/USERNAME" target="_blank" rel="noopener">LinkedIn</a>
-                    <a class="button secondary" href="mailto:student@example.com">Professional Email</a>
+
+                    <a class="button primary"
+                       href="https://github.com/austzeek"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Visit My GitHub
+                    </a>
+
                 </div>
+
             </div>
+
         </section>
+
     </main>
 
+
+    <!-- Footer -->
     <footer class="site-footer">
+
         <div class="container">
-            <p>&copy; 2026 Student Name. Built with HTML, CSS, GitHub, and GitHub Pages.</p>
+
+            <p>
+                &copy; 2026 Austin. Built with HTML, CSS,
+                GitHub, and GitHub Pages.
+            </p>
+
         </div>
+
     </footer>
+
 </body>
 </html>
